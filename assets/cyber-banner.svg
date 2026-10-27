@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Rodolfo Aura - Cyberpunk developer interface">
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#070c14"/><stop offset=".55" stop-color="#0c1523"/><stop offset="1" stop-color="#070a11"/></linearGradient>
+<linearGradient id="neon"><stop stop-color="#fcee09"/><stop offset=".52" stop-color="#00f0ff"/><stop offset="1" stop-color="#ff2a6d"/></linearGradient>
+<pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#1c3850" stroke-width=".8"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="cut"><path d="M25 20H1120L1175 72V315H80L25 260Z"/></clipPath>
+</defs>
+<rect width="1200" height="340" fill="#05080e"/>
+<g clip-path="url(#cut)"><rect x="25" y="20" width="1150" height="295" fill="url(#bg)"/><rect x="25" y="20" width="1150" height="295" fill="url(#grid)" opacity=".6"/>
+<g opacity=".6" stroke="#00f0ff" fill="none"><path d="M790 20V110H865V190H1020" stroke-width="1.5"/><path d="M1130 300H945V225H875" stroke="#ff2a6d"/><circle cx="1020" cy="190" r="5" fill="#00f0ff"/></g>
+<g opacity=".45"><path d="M800 300L965 135l80 80 130-130" fill="none" stroke="#fcee09" stroke-width="2" stroke-dasharray="8 9"><animate attributeName="stroke-dashoffset" from="0" to="-136" dur="7s" repeatCount="indefinite"/></path></g>
+<g font-family="monospace"><text x="70" y="69" font-size="15" fill="#00f0ff" letter-spacing="4">[ SYSTEM ONLINE // BRAZIL ]</text><text x="70" y="148" font-size="66" font-weight="900" fill="#fcee09" letter-spacing="3" filter="url(#glow)">RODOLFO AURA</text><text x="73" y="191" font-size="24" fill="#f5f7ff" letter-spacing="4">TECH SUPPORT / SOFTWARE / GAME DEV</text><text x="73" y="239" font-size="18" fill="#00f0ff">BUILDING REAL-WORLD SYSTEMS_ <animate attributeName="opacity" values="1;1;.2;1" dur="1.3s" repeatCount="indefinite"/></text><text x="74" y="282" font-size="12" fill="#829aad" letter-spacing="2">NETWORKS  //  CLOUDFLARE  //  WEB APPS  //  INTERACTIVE WORLDS</text><text x="945" y="65" font-size="11" fill="#fcee09">NIGHT CITY // 2077</text></g>
+<path d="M850 252H1130" stroke="#00f0ff" stroke-width="6" filter="url(#glow)"><animate attributeName="opacity" values=".4;1;.4" dur="3s" repeatCount="indefinite"/></path>
+<rect x="25" y="-10" width="1150" height="3" fill="#00f0ff" opacity=".25"><animate attributeName="y" values="20;315;20" dur="9s" repeatCount="indefinite"/></rect>
+</g><path d="M25 20H1120L1175 72V315H80L25 260Z" fill="none" stroke="#fcee09" stroke-width="3"/><path d="M1120 20V72H1175" fill="none" stroke="#ff2a6d" stroke-width="3"/></svg>
